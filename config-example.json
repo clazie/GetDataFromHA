@@ -1,5 +1,41 @@
 {
-    "ha-api-ip":"192.168.1.100",
-    "ha-api-port":8123,
-    "ha-api-token":"eyJhbGciOiJUIzI1NiIsInR5cCI6It2XVCJ9.eyJpb5MiOiIzOTVlODM4NmW6Mjc0OTI0YmE2OWE2ZIMyNjBlMGQ2NSIsImlhdCI6MTc3ODQwNDA1NywiZXhwIjoyMDkzNzY0MDU3fQ.KSQxoSUYI7_hqINAuGAKVzPjglhqOKpQi3pigOXd0NU"
+  "homeassistant": {
+    "ha-api-ip": "192.168.1.100",
+    "ha-api-port": 8123,
+    "ha-api-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+  },
+  "mqtt": {
+    "mqtt-ip": "192.168.15.241",
+    "mqtt-port": 1883,
+    "mqtt-username": "zielke",
+    "mqtt-password": "secret",
+    "mqtt-topic": "homeassistant/sensor/#",
+    "mqtt-qos": 0,
+    "mqtt-retain": false,
+    "mqtt-client-id": "homeassistant_influx2_bridge",
+    "mqtt-clean-session": true,
+    "mqtt-keep-alive": 60,
+    "mqtt-ssl": false,
+    "mqtt-ssl-ca-cert": "",
+    "mqtt-ssl-certfile": "",
+    "mqtt-ssl-keyfile": "",
+    "mqtt-ssl-passphrase": "",
+    "mqtt-ssl-insecure": false
+  },
+  "influx2": {
+    "influx2-url": "http://192.168.15.238:8086",
+    "influx2-token": "your_influx_token",
+    "influx2-org": "private",
+    "influx2-bucket": "my_bucket",
+    "influx2-measurement": "homeassistant",
+    "influx2-tag": "entity",
+    "influx2-field": "value",
+    "influx2-time": "time",
+    "influx2-time-format": "%Y-%m-%dT%H:%M:%S.%fZ",
+    "influx2-timezone": "UTC",
+    "influx2-batch-size": 1000,
+    "influx2-batch-interval": 10,
+    "influx2-retry-interval": 5,
+    "influx2-max-retries": 5
+  }
 }
