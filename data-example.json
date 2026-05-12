@@ -1,0 +1,118 @@
+[
+  {
+    "entity": "Absolute Pressure",
+    "state": "986.2"
+  },
+  {
+    "entity": "Daily Rain",
+    "state": "0.0"
+  },
+  {
+    "entity": "Dewpoint",
+    "state": "2.1"
+  },
+  {
+    "entity": "Event Rain",
+    "state": "15.2"
+  },
+  {
+    "entity": "Feels like Temperature",
+    "state": "8.3"
+  },
+  {
+    "entity": "Hourly Rain",
+    "state": "0.0"
+  },
+  {
+    "entity": "Humidity",
+    "state": "61"
+  },
+  {
+    "entity": "Indoor Dewpoint",
+    "state": "9.3"
+  },
+  {
+    "entity": "Indoor Humidity",
+    "state": "42"
+  },
+  {
+    "entity": "Indoor Temperature",
+    "state": "22.9"
+  },
+  {
+    "entity": "Max Daily Gust",
+    "state": "20.1"
+  },
+  {
+    "entity": "Monthly Rain",
+    "state": "34.0"
+  },
+  {
+    "entity": "Outdoor Temperature",
+    "state": "9.2"
+  },
+  {
+    "entity": "Rain Rate",
+    "state": "0.0"
+  },
+  {
+    "entity": "Relative Pressure",
+    "state": "1012.4"
+  },
+  {
+    "entity": "Solar Lux",
+    "state": "9548.1"
+  },
+  {
+    "entity": "Solar Radiation",
+    "state": "75.43"
+  },
+  {
+    "entity": "UV Index",
+    "state": "0"
+  },
+  {
+    "entity": "Vapour Pressure Deficit",
+    "state": "4.53776077805694"
+  },
+  {
+    "entity": "Weekly Rain",
+    "state": "15.2"
+  },
+  {
+    "entity": "WH25 Battery",
+    "state": "off"
+  },
+  {
+    "entity": "WH65 Battery",
+    "state": "off"
+  },
+  {
+    "entity": "Wind Direction",
+    "state": "25"
+  },
+  {
+    "entity": "Wind Direction 10m Avg",
+    "state": "41"
+  },
+  {
+    "entity": "Wind Gust",
+    "state": "11.1"
+  },
+  {
+    "entity": "Wind Speed",
+    "state": "7.2"
+  },
+  {
+    "entity": "Wind Speed 10m Avg",
+    "state": "2.9"
+  },
+  {
+    "entity": "Windchill",
+    "state": "8.3"
+  },
+  {
+    "entity": "Yearly Rain",
+    "state": "236.7"
+  }
+]

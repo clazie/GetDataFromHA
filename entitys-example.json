@@ -1,0 +1,179 @@
+{
+    "device":[
+        {
+            "entity":     "Absolute Pressure",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_absolute_pressure",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Daily Rain",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_daily_rain",
+            "integration":"Ecowitt"
+        },
+        {
+
+            "entity":     "Dewpoint",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_dewpoint",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Event Rain",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_event_rain",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Feels like Temperature",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_feels_like_temperature",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Hourly Rain",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_hourly_rain",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Humidity",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_humidity",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Indoor Dewpoint",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_indoor_dewpoint",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Indoor Humidity",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_indoor_humidity",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Indoor Temperature",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_indoor_temperature",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Max Daily Gust",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_max_daily_gust",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Monthly Rain",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_monthly_rain",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Outdoor Temperature",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_outdoor_temperature",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Rain Rate",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_rain_rate",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Relative Pressure",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_relative_pressure",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Solar Lux",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_solar_lux",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Solar Radiation",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_solar_radiation",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "UV Index",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_uv_index",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Vapour Pressure Deficit",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_vapour_pressure_deficit",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Weekly Rain",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_weekly_rain",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "WH25 Battery",
+            "area":       "Garten",
+            "entity-id":  "binary_sensor.hp2550a_pro_v1_7_6_wh25_battery",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "WH65 Battery",
+            "area":       "Garten",
+            "entity-id":  "binary_sensor.hp2550a_pro_v1_7_6_wh65_battery",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Wind Direction",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_wind_direction",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Wind Direction 10m Avg",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_wind_direction_10m_avg",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Wind Gust",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_wind_gust",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Wind Speed",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_wind_speed",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Wind Speed 10m Avg",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_wind_speed_10m_avg",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Windchill",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_windchill",
+            "integration":"Ecowitt"
+        },
+        {
+            "entity":     "Yearly Rain",
+            "area":       "Garten",
+            "entity-id":  "sensor.hp2550a_pro_v1_7_6_yearly_rain",
+            "integration":"Ecowitt"
+        }
+    ]
+}

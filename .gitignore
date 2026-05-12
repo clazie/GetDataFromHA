@@ -1,0 +1,13 @@
+.venv/
+data.json
+config.json
+entitys.json
+logs/
+temp/
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+.idea
