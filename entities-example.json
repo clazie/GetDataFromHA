@@ -2,118 +2,148 @@
     "aera":"cz",
     "entities":[
         {
+            "field":      "Pressure",
             "entity":     "Absolute Pressure",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_absolute_pressure"
         },
         {
+            "field":      "Rain24h",
             "entity":     "Daily Rain",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_daily_rain"
         },
         {
+
+            "field":      "Dewpoint",
             "entity":     "Dewpoint",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_dewpoint"
         },
         {
+            "field":      "RainEvent",
             "entity":     "Event Rain",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_event_rain"
         },
         {
+            "field":      "OutTempFeelsLike",
             "entity":     "Feels like Temperature",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_feels_like_temperature"
         },
         {
+            "field":      "Rain1h",
             "entity":     "Hourly Rain",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_hourly_rain"
         },
         {
+            "field":      "OutHumidity",
             "entity":     "Humidity",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_humidity"
         },
         {
+            "field":      "InDewpoint",
             "entity":     "Indoor Dewpoint",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_indoor_dewpoint"
         },
         {
+            "field":      "InHumidity",
             "entity":     "Indoor Humidity",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_indoor_humidity"
         },
         {
+            "field":      "InTemp",
             "entity":     "Indoor Temperature",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_indoor_temperature"
         },
         {
+            "field":      "WindGustMaxDaily",
             "entity":     "Max Daily Gust",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_max_daily_gust"
         },
         {
+            "field":      "RainMonthly",
             "entity":     "Monthly Rain",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_monthly_rain"
         },
         {
+            "field":      "OutTemp",
             "entity":     "Outdoor Temperature",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_outdoor_temperature"
         },
         {
+            "field":      "RainRate",
             "entity":     "Rain Rate",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_rain_rate"
         },
         {
+            "field":      "RelativePressure",
             "entity":     "Relative Pressure",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_relative_pressure"
         },
         {
+            "field":      "SolarLux",
             "entity":     "Solar Lux",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_solar_lux"
         },
         {
+            "field":      "SolarRadiation",
             "entity":     "Solar Radiation",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_solar_radiation"
         },
         {
+            "field":      "UVIndex",
             "entity":     "UV Index",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_uv_index"
         },
         {
+            "field":      "VapourPressureDeficit",
             "entity":     "Vapour Pressure Deficit",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_vapour_pressure_deficit"
         },
         {
+            "field":      "RainWeekly",
             "entity":     "Weekly Rain",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_weekly_rain"
         },
         {
+            "field":      "WH25Battery",
             "entity":     "WH25 Battery",
             "entity-id":  "binary_sensor.hp2550a_pro_v1_7_6_wh25_battery"
         },
         {
+            "field":      "WH65Battery",
             "entity":     "WH65 Battery",
             "entity-id":  "binary_sensor.hp2550a_pro_v1_7_6_wh65_battery"
         },
         {
+            "field":      "WindDir",
             "entity":     "Wind Direction",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_wind_direction"
         },
         {
+            "field":      "Wind10mAvg",
             "entity":     "Wind Direction 10m Avg",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_wind_direction_10m_avg"
         },
         {
+            "field":      "WindGust",
             "entity":     "Wind Gust",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_wind_gust"
         },
         {
+            "field":      "Wind",
             "entity":     "Wind Speed",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_wind_speed"
         },
         {
+            "field":      "Wind10mAvg",
             "entity":     "Wind Speed 10m Avg",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_wind_speed_10m_avg"
         },
         {
+            "field":      "Windchill",
             "entity":     "Windchill",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_windchill"
         },
         {
+            "field":      "Rain",
             "entity":     "Yearly Rain",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_yearly_rain"
         }
