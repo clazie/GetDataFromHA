@@ -10,7 +10,7 @@
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_daily_rain"
         },
         {
-            "entity":     "Dewpoint",
+            "entity":     "OutDewpoint",
             "entity-id":  "sensor.hp2550a_pro_v1_7_6_dewpoint"
         },
         {
