@@ -38,31 +38,21 @@ def format_field_value(value: Any) -> str:
         return escape_string_field(text)
 
 
-def determine_field_name(value: Any, base_field: str) -> str:
-    """Determine the field name based on the value type to avoid type conflicts."""
-    if isinstance(value, (int, float)) and not isinstance(value, bool):
-        return f"{base_field}_float"
-    elif isinstance(value, str):
-        try:
-            float(value)
-            return f"{base_field}_float"
-        except ValueError:
-            return f"{base_field}_string"
-    else:
-        return f"{base_field}_string"
-
-
 def build_line_protocol(
     measurement: str,
-    tag_key: str,
-    tag_value: str,
+    tags: Dict[str, Any],
     field_key: str,
     field_value: Any,
 ) -> str:
-    tag_value_escaped = escape_tag_value(tag_value)
-    field_text = format_field_value(field_value)
     measurement_escaped = escape_tag_value(measurement)
-    return f"{measurement_escaped},{tag_key}={tag_value_escaped} {field_key}={field_text}"
+    tags_text = ",".join(
+        f"{escape_tag_value(str(key))}={escape_tag_value(str(value))}"
+        for key, value in tags.items()
+        if value is not None
+    )
+    field_text = format_field_value(field_value)
+    field_key_escaped = escape_tag_value(field_key)
+    return f"{measurement_escaped},{tags_text} {field_key_escaped}={field_text}"
 
 
 def send_influx_points(config: Dict[str, Any], entries: List[Dict[str, Any]]) -> None:
@@ -86,13 +76,13 @@ def send_influx_points(config: Dict[str, Any], entries: List[Dict[str, Any]]) ->
 
     lines = []
     for entry in entries:
-        field_name_dynamic = determine_field_name(entry["state"], field_name)
+        field_key = entry.get("field") or field_name
+        tags = {tag_name: entry["entity"], "aera": entry.get("aera")}
         lines.append(
             build_line_protocol(
                 measurement=measurement,
-                tag_key=tag_name,
-                tag_value=entry["entity"],
-                field_key=field_name_dynamic,
+                tags=tags,
+                field_key=field_key,
                 field_value=entry["state"],
             )
         )

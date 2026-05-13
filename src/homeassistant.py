@@ -42,12 +42,14 @@ def collect_entity_states(config: Dict[str, Any], entities: Dict[str, Any]) -> L
     if not token:
         raise HomeAssistantError("config.json muss im Abschnitt 'homeassistant' den Schlüssel 'ha-api-token' enthalten.")
 
+    aera = entities.get("aera")
     base_url = build_base_url(ha_config)
     result: List[Dict[str, Any]] = []
 
     for device in devices:
         entity_name = device.get("entity")
         entity_id = device.get("entity-id")
+        field_name = device.get("field")
         if not entity_id:
             continue
 
@@ -57,6 +59,8 @@ def collect_entity_states(config: Dict[str, Any], entities: Dict[str, Any]) -> L
                 "entity": entity_name or entity_id,
                 "entity_id": entity_id,
                 "state": state_data.get("state"),
+                "field": field_name,
+                "aera": aera,
             }
         )
 
