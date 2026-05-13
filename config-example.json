@@ -28,8 +28,7 @@
     "influx2-org": "private",
     "influx2-bucket": "my_bucket",
     "influx2-measurement": "homeassistant",
-    "influx2-tag": "entity",
-    "influx2-field": "value",
+
     "influx2-time": "time",
     "influx2-time-format": "%Y-%m-%dT%H:%M:%S.%fZ",
     "influx2-timezone": "UTC",

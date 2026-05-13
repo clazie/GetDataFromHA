@@ -65,8 +65,7 @@ def send_influx_points(config: Dict[str, Any], entries: List[Dict[str, Any]]) ->
     org = influx_config.get("influx2-org")
     bucket = influx_config.get("influx2-bucket")
     measurement = influx_config.get("influx2-measurement", "homeassistant")
-    tag_name = influx_config.get("influx2-tag", "entity")
-    field_name = influx_config.get("influx2-field", "value")
+    field_name = "value"
     max_retries = int(influx_config.get("influx2-max-retries", 3))
     retry_interval = int(influx_config.get("influx2-retry-interval", 5))
 
@@ -77,7 +76,7 @@ def send_influx_points(config: Dict[str, Any], entries: List[Dict[str, Any]]) ->
     lines = []
     for entry in entries:
         field_key = entry.get("field") or field_name
-        tags = {tag_name: entry["entity"], "aera": entry.get("aera")}
+        tags = {"aera": entry.get("aera")}
         lines.append(
             build_line_protocol(
                 measurement=measurement,
