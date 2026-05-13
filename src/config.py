@@ -16,7 +16,7 @@ def load_json_file(path: Path) -> Dict[str, Any]:
 
 
 def load_config(
-    config_path: str = "config.json", entities_path: str = "entitys.json"
+    config_path: str = "config.json", entities_path: str = "entities.json"
 ) -> Tuple[Dict[str, Any], Dict[str, Any]]:
     config = load_json_file(PROJECT_ROOT / config_path)
     entities = load_json_file(PROJECT_ROOT / entities_path)

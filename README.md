@@ -12,7 +12,7 @@ source .venv/bin/activate
 
 ## Erstellen der Configuration
 
-Als Basis können die Dateien `config-example.json` nach `config.json` und `entitys-example.json` nach `entitys.json` kopiert werden. Die Einträge müssen entsprechend angepasst werden.
+Als Basis können die Dateien `config-example.json` nach `config.json` und `entities-example.json` nach `entities.json` kopiert werden. Die Einträge müssen entsprechend angepasst werden.
 
 ## Starten
 

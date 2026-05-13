@@ -34,9 +34,9 @@ def collect_entity_states(config: Dict[str, Any], entities: Dict[str, Any]) -> L
     if not isinstance(ha_config, dict):
         raise HomeAssistantError("config.json muss einen Abschnitt 'homeassistant' enthalten.")
 
-    devices = entities.get("device")
+    devices = entities.get("entities")
     if not isinstance(devices, list):
-        raise HomeAssistantError("entitys.json muss ein Feld 'device' mit einer Liste enthalten.")
+        raise HomeAssistantError("entities.json muss ein Feld 'entities' mit einer Liste enthalten.")
 
     token = ha_config.get("ha-api-token")
     if not token:

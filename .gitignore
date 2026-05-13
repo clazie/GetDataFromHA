@@ -1,7 +1,7 @@
 .venv/
 data.json
 config.json
-entitys.json
+entities.json
 logs/
 temp/
 *.log

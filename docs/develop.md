@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ## 5. Konfigurationsdateien prüfen
 
 - `config.json` für Home Assistant, MQTT und InfluxDB
-- `entitys.json` für die abgefragten Entitäten
+- `entities.json` für die abgefragten Entitäten
 
 > Falls noch keine `config.json` vorhanden ist, kann `config-example.json` als Vorlage genutzt werden.
 
