@@ -1,4 +1,5 @@
-from pathlib import Path
+#!/usr/bin/env python3
+
 import sys
 
 from config import PROJECT_ROOT, load_config

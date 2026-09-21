@@ -1,118 +1,205 @@
 [
   {
     "entity": "Absolute Pressure",
-    "state": "986.2"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_absolute_pressure",
+    "state": "1003.7",
+    "field": "Pressure",
+    "aera": "cz"
   },
   {
     "entity": "Daily Rain",
-    "state": "0.0"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_daily_rain",
+    "state": "0.0",
+    "field": "Rain24h",
+    "aera": "cz"
   },
   {
     "entity": "Dewpoint",
-    "state": "2.1"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_dewpoint",
+    "state": "10.5",
+    "field": "Dewpoint",
+    "aera": "cz"
   },
   {
     "entity": "Event Rain",
-    "state": "15.2"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_event_rain",
+    "state": "0.0",
+    "field": "RainEvent",
+    "aera": "cz"
   },
   {
     "entity": "Feels like Temperature",
-    "state": "8.3"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_feels_like_temperature",
+    "state": "17.9",
+    "field": "OutTempFeelsLike",
+    "aera": "cz"
   },
   {
     "entity": "Hourly Rain",
-    "state": "0.0"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_hourly_rain",
+    "state": "0.0",
+    "field": "Rain1h",
+    "aera": "cz"
   },
   {
     "entity": "Humidity",
-    "state": "61"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_humidity",
+    "state": "62",
+    "field": "OutHumidity",
+    "aera": "cz"
   },
   {
     "entity": "Indoor Dewpoint",
-    "state": "9.3"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_indoor_dewpoint",
+    "state": "12.6",
+    "field": "InDewpoint",
+    "aera": "cz"
   },
   {
     "entity": "Indoor Humidity",
-    "state": "42"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_indoor_humidity",
+    "state": "50",
+    "field": "InHumidity",
+    "aera": "cz"
   },
   {
     "entity": "Indoor Temperature",
-    "state": "22.9"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_indoor_temperature",
+    "state": "23.6",
+    "field": "InTemp",
+    "aera": "cz"
   },
   {
     "entity": "Max Daily Gust",
-    "state": "20.1"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_max_daily_gust",
+    "state": "13.0",
+    "field": "WindGustMaxDaily",
+    "aera": "cz"
   },
   {
     "entity": "Monthly Rain",
-    "state": "34.0"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_monthly_rain",
+    "state": "33.0",
+    "field": "RainMonthly",
+    "aera": "cz"
   },
   {
     "entity": "Outdoor Temperature",
-    "state": "9.2"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_outdoor_temperature",
+    "state": "17.9",
+    "field": "OutTemp",
+    "aera": "cz"
   },
   {
     "entity": "Rain Rate",
-    "state": "0.0"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_rain_rate",
+    "state": "0.0",
+    "field": "RainRate",
+    "aera": "cz"
   },
   {
     "entity": "Relative Pressure",
-    "state": "1012.4"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_relative_pressure",
+    "state": "1029.9",
+    "field": "RelativePressure",
+    "aera": "cz"
   },
   {
     "entity": "Solar Lux",
-    "state": "9548.1"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_solar_lux",
+    "state": "46139.2",
+    "field": "SolarLux",
+    "aera": "cz"
   },
   {
     "entity": "Solar Radiation",
-    "state": "75.43"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_solar_radiation",
+    "state": "364.5",
+    "field": "SolarRadiation",
+    "aera": "cz"
   },
   {
     "entity": "UV Index",
-    "state": "0"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_uv_index",
+    "state": "3",
+    "field": "UVIndex",
+    "aera": "cz"
   },
   {
     "entity": "Vapour Pressure Deficit",
-    "state": "4.53776077805694"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_vapour_pressure_deficit",
+    "state": "7.7886938727843",
+    "field": "VapourPressureDeficit",
+    "aera": "cz"
   },
   {
     "entity": "Weekly Rain",
-    "state": "15.2"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_weekly_rain",
+    "state": "0.0",
+    "field": "RainWeekly",
+    "aera": "cz"
   },
   {
     "entity": "WH25 Battery",
-    "state": "off"
+    "entity_id": "binary_sensor.hp2550a_pro_v1_7_6_wh25_battery",
+    "state": "off",
+    "field": "WH25Battery",
+    "aera": "cz"
   },
   {
     "entity": "WH65 Battery",
-    "state": "off"
+    "entity_id": "binary_sensor.hp2550a_pro_v1_7_6_wh65_battery",
+    "state": "off",
+    "field": "WH65Battery",
+    "aera": "cz"
   },
   {
     "entity": "Wind Direction",
-    "state": "25"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_wind_direction",
+    "state": "117",
+    "field": "WindDir",
+    "aera": "cz"
   },
   {
     "entity": "Wind Direction 10m Avg",
-    "state": "41"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_wind_direction_10m_avg",
+    "state": "130",
+    "field": "Wind10mAvg",
+    "aera": "cz"
   },
   {
     "entity": "Wind Gust",
-    "state": "11.1"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_wind_gust",
+    "state": "3.5",
+    "field": "WindGust",
+    "aera": "cz"
   },
   {
     "entity": "Wind Speed",
-    "state": "7.2"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_wind_speed",
+    "state": "0.0",
+    "field": "Wind",
+    "aera": "cz"
   },
   {
     "entity": "Wind Speed 10m Avg",
-    "state": "2.9"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_wind_speed_10m_avg",
+    "state": "2.1",
+    "field": "Wind10mAvg",
+    "aera": "cz"
   },
   {
     "entity": "Windchill",
-    "state": "8.3"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_windchill",
+    "state": "unknown",
+    "field": "Windchill",
+    "aera": "cz"
   },
   {
     "entity": "Yearly Rain",
-    "state": "236.7"
+    "entity_id": "sensor.hp2550a_pro_v1_7_6_yearly_rain",
+    "state": "498.1",
+    "field": "Rain",
+    "aera": "cz"
   }
 ]
