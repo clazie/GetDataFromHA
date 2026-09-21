@@ -1,9 +1,9 @@
 from pathlib import Path
 import sys
 
-from .config import PROJECT_ROOT, load_config
-from .homeassistant import HomeAssistantError, collect_entity_states
-from .outputs import publish_mqtt_states, send_influx_points, write_json_file
+from config import PROJECT_ROOT, load_config
+from homeassistant import HomeAssistantError, collect_entity_states
+from outputs import publish_mqtt_states, send_influx_points, write_json_file
 
 OUTPUT_FILE = PROJECT_ROOT / "data.json"
 
